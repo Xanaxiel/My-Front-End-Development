@@ -1,0 +1,50 @@
+<div style="height: 100vh" fxLayoutAlign="center center" [formGroup]="formGroup">
+	<mat-card class="mat-card-align" fxLayout="column" fxLayoutAlign="" style="text-align: center;">
+		<mat-card-title>Settings</mat-card-title>
+		<p>Insert profile pic here</p>
+		<mat-form-field>
+			<mat-label>Username: </mat-label>
+			<input matInput placeholder="Just a placeholder">
+		</mat-form-field>
+		<mat-form-field>
+			<mat-label>First Name: </mat-label>
+			<input matInput placeholder="Just a placeholder">
+		</mat-form-field>
+		<mat-form-field>
+			<mat-label>Last Name: </mat-label>
+			<input matInput placeholder="Just a placeholder">
+		</mat-form-field>
+		<mat-form-field>
+			<mat-label>Email: </mat-label>
+			<input matInput placeholder="Just a placeholder">
+		</mat-form-field>
+		<mat-form-field>
+			<mat-label>Phone: </mat-label>
+			<input matInput placeholder="Just a placeholder">
+		</mat-form-field>
+		<mat-form-field>
+			<mat-label>Zip code: </mat-label>
+			<input matInput placeholder="Just a placeholder">
+		</mat-form-field>
+		<br>
+		<button mat-stroked-button class="create-new-band-profile-button btn-sm" routerLink="/create-new-band-profile">
+			Create New Band Profile
+		</button>
+		<br>
+		<button mat-stroked-button class="edit-button btn-sm" routerLink="/settings-edit">
+			Edit
+		</button>
+		<br>
+		<button mat-stroked-button class="change-pass-button btn-sm" routerLink="/forgotPassword">
+			Forgot Password
+		</button>
+		<br>
+		<button mat-stroked-button class="reset-button btn-sm" routerLink="/resetPassword">
+			Reset Password
+		</button>
+		<br>
+		<button mat-stroked-button class="delete-account-button btn-sm" (click)="onDelete()">
+			Delete Account
+		</button>
+	</mat-card>
+</div>

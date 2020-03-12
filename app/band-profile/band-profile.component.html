@@ -1,0 +1,38 @@
+<div style="height: 100vh" fxLayout="column" [formGroup]="formGroup">
+	<h1 class="band-name">Band Name Here</h1>
+	<p class="image">Insert profile pic here</p>
+	<br>
+	<br>
+	<mat-card class="band-description">
+		<p>Insert band description here</p>
+		<button mat-stroked-button class="edit-description-button" routerLink="">
+			Edit Description
+		</button>
+	</mat-card>
+	<br>
+
+	<div class="block-master" fxLayout="row">
+		<div class="left-block">
+			<mat-card class="band-events">
+				<h2>Events</h2>
+				<p>Insert band events here</p>
+				<button mat-stroked-button class="add-event-button" routerLink="">
+					Add Event
+				</button>
+			</mat-card>
+			<br>
+			<mat-card class="band-songs">
+				<h2>Music</h2>
+				<p>Insert band albums here</p>
+				<p>Insert band songs here</p>
+			</mat-card>
+		</div>
+		<mat-card class="band-posts">
+			<h2>Posts</h2>
+			<p>Insert band posts here</p>
+			<button mat-stroked-button class="add-posts-button" routerLink="">
+				Add Post
+			</button>
+		</mat-card>
+	</div>
+</div>

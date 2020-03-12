@@ -1,0 +1,159 @@
+.upcoming-events-mat-card-align {
+  height: 100%;
+  position: relative;
+}
+
+.reccomended-artists-mat-card-align {
+  height: 100%;
+  position: relative;
+}
+
+.band-news-mat-card-align {
+  height: 100%;
+  position: relative;
+}
+
+.event-map-mat-card-align {
+  height: 100%;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.master-card {
+  height:100%;
+  width: 100%;
+  position: relative;
+}
+
+.top-row {
+  height: 100%;
+  position: relative;
+  width: 50%;
+}
+
+.bottom-row {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  min-width: 100px;
+}
+
+.search {
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 25px;
+  width: 100%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
+}
+
+.search-icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 16px;
+}
+
+.clear-icon {
+  position: absolute;
+  top: 9px;
+  right: 8px;
+  width: 12px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.search:hover, .search:focus {
+  border: 1px solid #000000;
+  background-color: #c89dbc;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  min-width: 100px;
+}
+
+.filters {
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 25px;
+  width: 100%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
+}
+
+.filters-icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 12px;
+}
+
+.filters:hover, .search:focus {
+  border: 1px solid #000000;
+  background-color: #c89dbc;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: red;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/* Other style */ 
+body {
+  padding: 2%;
+}
+
+p {
+  padding: 2%;
+  background: #C0C0C0;
+  color: #17202a;
+  border: 1px solid #85c1e9 ;
+  border-radius: .75em;
+}

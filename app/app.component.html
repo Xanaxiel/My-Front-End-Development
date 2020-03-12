@@ -1,0 +1,46 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side" [opened]="true" style="height:100vh">
+    <div fxLayout="column" fxLayoutGap="20px">
+
+      <p>Insert Profile pic here</p>
+      <button  mat-stroked-button routerLink="/login">
+        Login
+      </button>
+      <button  mat-stroked-button routerLink="/dashboard">
+        Dashboard
+      </button>
+      <button  mat-stroked-button routerLink="/bands">
+        Bands
+      </button>
+      <button  mat-stroked-button routerLink="/events">
+        Events
+      </button>
+      <button  mat-stroked-button routerLink="/favorites">
+        Favorites
+      </button>
+      <button  mat-stroked-button routerLink="/map">
+        Map
+      </button>
+      <button  mat-stroked-button routerLink="/notifications">
+        Notifications
+      </button>
+      <button  mat-stroked-button routerLink="/settings">
+        Settings
+      </button>
+      <button  mat-stroked-button routerLink="/admin">
+        Admin Dashboard
+      </button>
+      <button  mat-stroked-button routerLink="/view-band-profile">
+        View Band Profile 
+      </button>
+    </div>
+  </mat-drawer>
+
+  <div>
+    <!-- <button  mat-stroked-button type="button" mat-button >
+      Example button
+    </button> -->
+    <router-outlet></router-outlet>
+  </div>
+
+</mat-drawer-container>

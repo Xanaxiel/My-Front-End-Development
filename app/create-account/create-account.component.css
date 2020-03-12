@@ -1,0 +1,25 @@
+.mat-card-align{
+	width: 100%;
+}
+.edit-button {
+  background-color: skyblue;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  left: 70%;
+  width: 20%;
+}
+.btn-sm {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.label-txt{
+	left: 150px;
+}
+.mini-headers{
+	left: 150px;
+}

@@ -1,0 +1,21 @@
+.band-name{
+	text-align: center;
+}
+.image{
+	text-align: center;
+}
+.band-description{
+	text-align: center;
+}
+.band-events{
+	width: 90%;
+}
+.band-songs{
+	width: 90%;
+}
+.band-posts{
+	width: 50%;
+}
+.left-block{
+	width: 80%;
+}

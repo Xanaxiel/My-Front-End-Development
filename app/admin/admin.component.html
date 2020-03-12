@@ -1,0 +1,21 @@
+<div style="height: 100vh" fxLayout="column" [formGroup]="formGroup">
+	<h1 class="title">Admin View</h1>
+	<br>
+	<mat-card class="user-actions" fxLayout="column" fxLayoutAlign="start start" style="min-height: min-content;">
+		<mat-card-title>Email of user to disable:</mat-card-title>
+		<mat-form-field>
+			<mat-label>Email: </mat-label>
+			<input matInput formControlName="email" placeholder="Enter email">
+		</mat-form-field>
+		<button mat-stroked-button class="disable-user btn-sm" (click)="onDisableAccount()">
+			Disable
+		</button>
+	</mat-card>
+	<!-- <br>
+	<mat-card class="admin-actions">
+		<h2>Admin Actions</h2>
+		<button mat-stroked-button class="download-log" routerLink="">
+			Download Log
+		</button>
+	</mat-card> -->
+</div>

@@ -1,0 +1,45 @@
+.upcoming-events-mat-card-align {
+  height: 100%;
+  position: relative;
+}
+
+.reccomended-artists-mat-card-align {
+  height: 100%;
+  position: relative;
+}
+
+.band-news-mat-card-align {
+  height: 100%;
+  position: relative;
+}
+
+.event-map-mat-card-align {
+  height: 100%;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.master-card {
+  height:100%;
+  width: 100%;
+  position: relative;
+}
+
+.top-row {
+  height: 100%;
+  position: relative;
+  width: 50%;
+}
+
+.bottom-row {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
