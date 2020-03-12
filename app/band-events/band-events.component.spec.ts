@@ -4,15 +4,15 @@ import { MatFormFieldModule, MatDividerModule, MatCardModule, MatButtonModule, M
 import { FormsModule, ReactiveFormsModule, FormGroup } from '@angular/forms';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { EventsComponent } from './events.component';
+import { BandEventsComponent } from './band-events.component';
 
-describe('EventsComponent', () => {
-  let component: EventsComponent;
-  let fixture: ComponentFixture<EventsComponent>;
+describe('BandEventsComponent', () => {
+  let component: BandEventsComponent;
+  let fixture: ComponentFixture<BandEventsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EventsComponent ],
+      declarations: [ BandEventsComponent ],
       imports: [ReactiveFormsModule,
                 MatFormFieldModule,
                 MatInputModule,
@@ -26,12 +26,12 @@ describe('EventsComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventsComponent);
+    fixture = TestBed.createComponent(BandEventsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should return date validation', () => {
     expect(component).toBeTruthy();
   });
 });

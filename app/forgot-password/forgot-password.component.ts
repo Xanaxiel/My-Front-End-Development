@@ -46,7 +46,7 @@ export class ForgotPasswordComponent implements OnInit {
     //structure the data to what the back end is expecting
     let changeData = {
       username: this.formGroup.get('username').value,
-	  challengeanswer: this.formGroup.get('challengeanswer').value,
+	    challengeanswer: this.formGroup.get('challengeanswer').value,
       newpassword: this.formGroup.get('newpassword').value,
     }
     

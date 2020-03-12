@@ -4,15 +4,15 @@ import { MatFormFieldModule, MatDividerModule, MatCardModule, MatButtonModule, M
 import { FormsModule, ReactiveFormsModule, FormGroup } from '@angular/forms';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { EventsComponent } from './events.component';
+import { UsersEventsComponent } from './users-events.component';
 
-describe('EventsComponent', () => {
-  let component: EventsComponent;
-  let fixture: ComponentFixture<EventsComponent>;
+describe('UsersEventsComponent', () => {
+  let component: UsersEventsComponent;
+  let fixture: ComponentFixture<UsersEventsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EventsComponent ],
+      declarations: [ UsersEventsComponent ],
       imports: [ReactiveFormsModule,
                 MatFormFieldModule,
                 MatInputModule,
@@ -26,7 +26,7 @@ describe('EventsComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventsComponent);
+    fixture = TestBed.createComponent(UsersEventsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
